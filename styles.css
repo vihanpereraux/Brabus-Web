@@ -1,0 +1,209 @@
+:root {
+  /* bold and heavy is availabale */
+  --font-type-medium: "Gilroy ☞";
+
+  /* Only regular */
+  --font-type-regular: "Gilroy-Regular ☞";
+}
+
+body {
+  /* overflow-x: hidden; */
+  background-color: #eaebf0;
+}
+
+/* Nav Bar */
+.logo {
+  width: 40%;
+  margin-top: 6%;
+}
+.nav-items {
+  font-family: var(--font-type-medium);
+  font-weight: 500;
+  font-size: 1.8vh;
+  margin-top: 8%;
+}
+.top-space {
+  margin-top: -5%;
+}
+.bi-list {
+  font-size: 5vh;
+}
+.bi-person {
+  font-size: 3.5vh;
+}
+.bi-bag {
+  font-size: 3vh;
+  margin-left: 4%;
+  margin-top: 0.2%;
+}
+#icons {
+  display: flex;
+  align-items: right;
+  margin-left: 90%;
+  margin-top: 1%;
+}
+
+
+
+/* Section 01 */
+hr {
+  color: #9a9ca3;
+  border: 1px solid #9a9ca3;
+  opacity: 85%;
+}
+.left-side {
+  padding-left: 5.5%;
+}
+#section-01-heading-one {
+  font-size: 8vh;
+  font-family: var(--font-type-medium);
+  margin-top: -1.4vh;
+  margin-bottom: -1.4vh;
+  line-height: 1.1;
+}
+.image-02 {
+  width: 55%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+}
+#section-01-heading-two {
+  font-size: 8vh;
+  font-family: var(--font-type-medium);
+  margin-top: -1.4vh;
+  margin-bottom: -1.4vh;
+  line-height: 1.1;
+}
+
+.right-side {
+  padding-left: 3.5%;
+}
+.image-01 {
+  width: 90%;
+  max-width: 100%;
+  height: auto;
+  margin-top: 2.5%;
+}
+.specs-btn {
+  width: 17vh;
+  height: 17vh;
+  margin-top: 4vh;
+  border-radius: 50%;
+  border-color: grey;
+  background-color: transparent;
+}
+.specs-btn p {
+  color: black;
+  font-family: var(--font-type-medium);
+  padding-top: 8.5%;
+  font-size: 2vh;
+}
+.specs-btn:hover {
+  background-color: black;
+}
+.specs-btn p:hover {
+  color: white;
+}
+
+.image-03 {
+  width: 66%;
+  max-width: 100%;
+  height: auto;
+  margin-left: 4%;
+  margin-top: 3vh;
+}
+
+.adventure-txt-row {
+  margin-top: 7%;
+}
+#section-01-heading-three {
+  font-size: 7vh;
+  font-family: var(--font-type-medium);
+  margin-bottom: -2%;
+  line-height: 1.1;
+}
+#adventure-txt {
+  margin-right: 15vh;
+  font-family: var(--font-type-medium);
+  font-size: 2.3vh;
+  line-height: 1.8;
+}
+
+
+
+/* Carousel */
+.carousel-row{
+  padding-left: 4.5%;
+  padding-right: 4.5%;
+}
+.gallery {
+  background: #eee;
+}
+.carousel-imgs{
+    margin-right: 30px;
+}
+.flickity-page-dots {
+  display: none;
+}
+.flickity-button {
+  display: none;
+}
+#nxt-prv-btn{
+  text-align: center;
+  font-family: var(--font-type-medium);
+  margin-top: 2%;
+  font-size: 1.8vh;
+}
+
+/* Carisel Text */
+.request-row{
+  margin-top: 7%;
+}
+#engine-text{
+  font-family: var(--font-type-medium);
+  font-size: 2.3vh;
+  line-height: 1.8;
+  padding-left: 9%;
+  /* margin-top: 20%; */
+}
+#request-now-txt{
+  font-family: var(--font-type-medium);
+  font-size: 2.3vh;
+  line-height: 1.8;
+  padding-right: 5%;
+  /* margin-top: 20%; */
+}
+.req-btn{
+  width: 25vh;
+  height: 25vh;
+  border-radius: 50%;
+  border-color: grey;
+  background-color: transparent;
+}
+.req-btn:hover {
+  background-color: black;
+}
+.req-btn p {
+  color: black;
+  font-family: var(--font-type-medium);
+  padding-top: 6%;
+  font-size: 2vh;
+}
+.req-btn p:hover {
+  color: white;
+}
+
+
+
+/* Section 03 */
+#section-03-heading-three{
+  font-size: 8vh;
+  font-family: var(--font-type-medium);
+  margin-top: -1.4vh;
+  padding-left: 4%;
+  margin-top: 12%;
+}
+
+
+
+
+
